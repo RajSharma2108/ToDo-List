@@ -1,0 +1,86 @@
+body
+{
+    background-color: rgb(56, 146, 146);
+}
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#input_field
+{
+    width: 500px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid grey;
+
+
+}
+
+#input_para
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.btn > button
+{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 7px;
+    margin-left: 20px;
+    box-shadow: 2px 2px grey;
+    font-size: 20px;
+
+}
+
+#add
+{
+    background-color: rgb(108, 226, 108);
+    color: whitesmoke;
+
+}
+
+#reset
+{
+    background-color: rgb(231, 76, 76);
+    color: whitesmoke;
+}
+
+#sort
+{
+    background-color: rgb(65, 155, 185);
+    color: whitesmoke;
+}
+
+#cleanup
+{
+    background-color: rgb(243, 243, 61);
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.tasks
+{
+    margin-left: 200px;
+
+}
+
+#ulTasks li.completed
+{
+    color: grey;
+    text-decoration: line-through;
+}
